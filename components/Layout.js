@@ -12,6 +12,7 @@ const Layout = ({ children }) => {
   }, []);
 
   return (
+    //eslint-disable-next-line
     <div className='layout' color-mode={mode}>
       <Head>
         <link rel='shortcut icon' href='/favicon.svg' type='image/x-icon' />
