@@ -1,0 +1,10 @@
+.content {
+  line-height: 29px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    margin-top: 12px;
+  }
+}

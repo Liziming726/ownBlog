@@ -1,0 +1,16 @@
+.plain {
+  font-size: 16px;
+  color: var(--element1);
+}
+
+.stress {
+  font-size: 16px;
+  color: var(--element3);
+}
+
+.textLink {
+  font-size: 16px;
+  color: var(--element3);
+  text-decoration: underline;
+  text-decoration-color: var(--element2);
+}

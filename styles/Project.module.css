@@ -1,0 +1,93 @@
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: var(--element3);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.icon {
+  font-size: 40px;
+  color: var(--element8);
+  transition: color 0.3s;
+}
+
+.name {
+  font-size: 21px;
+  color: var(--element2);
+  transition: color 0.3s;
+}
+
+.description {
+  font-size: 13px;
+  width: 250px;
+  color: var(--element1);
+  transition: color 0.3s;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 5px;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  row-gap: 30px;
+}
+
+.item:hover {
+  background-color: var(--surface4);
+  border-radius: 10px;
+}
+
+.item:hover .icon {
+  color: var(--element9);
+}
+
+.item:hover .name {
+  color: var(--element3);
+}
+
+.item:hover .description {
+  color: var(--element3);
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    display: block;
+  }
+
+  .item {
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+
+  .name {
+    font-size: 19px;
+  }
+
+  .title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+}
