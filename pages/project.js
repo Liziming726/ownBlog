@@ -16,7 +16,7 @@ const Project = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Ziming's Projects</title>
+        <title>Ziming Projects</title>
       </Head>
       <div className={styles.container}>
         <p className={styles.title}>Projects</p>

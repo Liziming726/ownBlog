@@ -1,3 +1,4 @@
+
 import Head from 'next/head';
 import Avatar from '../components/Home/Avatar';
 import Wrapper from '../components/Wrapper';
@@ -8,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Ziming's World</title>
+        <title>Ziming World</title>
       </Head>
       <Wrapper>
         <Avatar />
