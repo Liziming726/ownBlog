@@ -150,3 +150,4 @@ You know they are essential, because you can’t remove any of them without brea
 Lastly, create event handlers to set the state variables. Below is the final form, with all event handlers wired up:
 
 Although this code is longer than the original imperative example, it is much less fragile. Expressing all interactions as state changes lets you later introduce new visual states without breaking existing ones. It also lets you change what should be displayed in each state without changing the logic of the interaction itself.
+
