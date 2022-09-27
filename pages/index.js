@@ -1,4 +1,3 @@
-
 import Head from 'next/head';
 import Avatar from '../components/Home/Avatar';
 import Wrapper from '../components/Wrapper';
