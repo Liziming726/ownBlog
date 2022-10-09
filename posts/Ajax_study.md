@@ -1,5 +1,5 @@
 ---
-title: Ajax Study
+title: 📌 Ajax Study
 date: 2022-10-09
 tags: [文章分享]
 cover: ""
