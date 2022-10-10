@@ -7,7 +7,7 @@ top_img: false
 categories: [文章分享]
 ---
 
-# Jsut write something
+# Just write something
 
 ---
 
