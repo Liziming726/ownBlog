@@ -22,6 +22,12 @@ const Project = () => {
         <p className={styles.title}>Projects</p>
         <div className={styles.list}>
           <Item
+            name='Todo_List'
+            description='A Todo List demo. visit https://www.musicli.live/'
+            icon='&#xe604;'
+            repo='https://github.com/Liziming726/todolist-test'
+          />
+          <Item
             name='Next_React'
             description='A Using the next.js blog demo. Please refer to the official website nextjs.cn'
             icon='&#xe64b;'
@@ -46,7 +52,7 @@ const Project = () => {
             name='search_for_React'
             description='A search demo.'
             icon='&#xe66c;'
-            repo='https://github.com/Liziming726/Search-for-React'
+            repo='https://github.com/Lizsiming726/Search-for-React'
           />
         </div>
       </div>

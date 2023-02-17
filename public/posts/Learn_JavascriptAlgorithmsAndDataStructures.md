@@ -77,24 +77,4 @@ const myConcat = (arr1,arr2) => {
 console.log(myConcat([1, 2], [3, 4, 5]));
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 All the code is study from [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
-

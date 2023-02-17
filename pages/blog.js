@@ -16,6 +16,8 @@ const blog = ({ posts }) => {
   return (
     <Wrapper>
       <Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9654416403290893"
+     crossOrigin="anonymous"></script>
         <title>Ziming Blog</title>
       </Head>
       <Content posts={posts} />

@@ -5,6 +5,17 @@ import styles from '../../styles/Blog.module.css';
 const content = ({ posts }) => {
   return (
     <Wrapper>
+      <p className={styles.year}>2023</p>
+      {posts
+        .filter((post) => post.date.includes('2023'))
+        .map((post) => (
+          <Post
+            title={post.title}
+            date={post.date}
+            id={post.id}
+            key={post.id}
+          />
+        ))}
       <p className={styles.year}>2022</p>
       {posts
         .filter((post) => post.date.includes('2022'))
