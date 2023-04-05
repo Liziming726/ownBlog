@@ -116,5 +116,3 @@ export default function Post({ postData }) {
   )
 }
 ```
-
-## 🚝 This far , We’ve successfully generated dynamic routes.

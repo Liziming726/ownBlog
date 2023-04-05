@@ -72,6 +72,8 @@ html.dark {
   --primary: #01408e;
   --secondary: #3c5d5c;
   --tertiary: #fff7d6;
+  --hover: rgba(0, 0, 0, 0.4);
+  --card: rgba(0, 0, 0, 0.2);
 }
 
 /* Dark Mode */
@@ -102,6 +104,8 @@ html.dark {
   --primary: #8fceff;
   --secondary: #72faca;
   --tertiary: #eee8a9;
+  --card: rgba(255, 255, 255, 0.2);
+  --hover: rgba(255, 255, 255, 0.4);
 }
 
 /*!

@@ -24,7 +24,7 @@ const Project = () => {
           <Item
             name='Todo_List'
             description='A Todo List demo. visit https://www.musicli.live/'
-            icon='&#xe604;'
+            icon='&#xe64b;'
             repo='https://github.com/Liziming726/todolist-test'
           />
           <Item

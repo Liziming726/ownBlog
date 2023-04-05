@@ -16,7 +16,6 @@ const Layout = ({ children }) => {
     <div className='layout' color-mode={mode}>
       <Head>
         <link rel='shortcut icon' href='https://beta.reactjs.org/favicon.ico' type='image/x-icon' />
-        <link rel='shortcut icon' href='/favicon.svg' type='image/x-icon' />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
         <link

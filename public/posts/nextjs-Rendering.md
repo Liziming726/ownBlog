@@ -346,3 +346,6 @@ With Static Site Generation, the HTML is generated on the server, but unlike ser
 In Next.js, you can opt to statically generate pages by using `getStaticProps.`
 
 The beauty of Next.js is that you can choose the most appropriate rendering method for your use case on a page-by-page basis, whether that's Static Site Generation, Server-side Rendering, or Client-Side Rendering. To learn more about which rendering method is right for your specific use case, see the data fetching docs.
+
+
+In the next section, we’ll discuss where your code can be stored or run after it’s deployed.
