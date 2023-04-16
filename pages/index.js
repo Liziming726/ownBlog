@@ -13,7 +13,7 @@ const Home = () => {
       <Wrapper>
         <Avatar />
         <Content />
-        <Footer />
+        {/* <Footer /> */}
       </Wrapper>
     </div>
   );

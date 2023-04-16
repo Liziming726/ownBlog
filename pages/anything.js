@@ -8,7 +8,23 @@ import Item from "../components/Anythings/item";
 
 import Giscus from "@giscus/react";
 
-const Anything = () => {
+import axios from "axios";
+
+export async function getStaticProps() {
+  const res = await axios.get(
+    "https://tianqi.moji.com/api/getAqi/5375"
+    // "https://restapi.amap.com/v3/airquality/aqilist?&key=f0f577c0b97d416f142fed74e8bbd3d7&zoom=13&bounds=117.049498,36.708476;117.196882,36.595943&citycode=370100&_=1681527643845"
+  );
+  const data = res.data;
+  console.log(data);
+  return {
+    props: {
+      data,
+    },
+  };
+}
+
+const Anything = ({ data }) => {
   return (
     <>
       <Wrapper>
@@ -23,6 +39,20 @@ const Anything = () => {
             </p>
           </div>
         </div>
+
+        {data.hours && data.hours[22] && (
+          <div key={data.hours[22]}>
+            <p>
+              历城区空气污染指数 {data.hours[22].time} : {data.hours[22].aqi}
+            </p>
+          </div>
+        )}
+        {data.tips && (
+          <div>
+            <p>tips:{data.tips}</p>
+          </div>
+        )}
+
         <Item
           // 头像，名字，描述，时间，仓库，图片，宽度，高度
           avater="https://s1.imgbed.xyz/2023/04/05/jWK1u.md.jpg"
@@ -68,18 +98,10 @@ const Anything = () => {
           repoId="R_kgDOIA4-uA"
           category="Announcements"
           categoryId="DIC_kwDOIA4-uM4CRgXS"
-          mapping="pathname"
-          term="Welcome to @giscus/react component!"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="top"
-          theme="light"
-          lang="zh-CN"
-          loading="lazy"
-          crossorigin="anonymous"
         />
       </Wrapper>
     </>
   );
 };
+
 export default Anything;
