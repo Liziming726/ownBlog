@@ -21,6 +21,12 @@ const Project = () => {
       <div className={styles.container}>
         <p className={styles.title}>Projects</p>
         <div className={styles.list}>
+        <Item
+            name='Weather Now'
+            description='A Weather website. visit https://www.weathernow.fun/'
+            icon='&#xe64b;'
+            repo='https://www.weathernow.fun/'
+          />
           <Item
             name='Todo_List'
             description='A Todo List demo. visit https://www.musicli.live/'
